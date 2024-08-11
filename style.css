@@ -40,13 +40,19 @@ body{
 .navbarleft li{
   display: inline-block;
   margin-left: 15px;
-  border: solid 1px white;
+  border: solid 1px #8509D0;
+  background-color: #8509D0;
   padding : 10px;
+  border-radius: 10px;
 }
 
 .navbarleft li a{
   text-decoration: none;
   color: white;
+  font-size: 15px;
+   padding: 8px 10px;
+  font-family: 'Concert One', cursive;
+  border-radius: 10px;
 }
 
 .navbarmid{
@@ -57,21 +63,22 @@ body{
 .navbarmid li{
   display: inline-block;
   margin-left: 15px;
-  border: solid 1px white;
+  border: solid 1px #8509D0;
   padding : 10px;
+  font-family: 'Concert One', cursive;
+  border-radius: 10px;
 }
 
 .navbarmid li a{
   text-decoration: none;
-  color: white;
+  color: #ffffff;
+  padding: 8px 13px;
+  font-size: 15px;
+  font-family: 'Concert One', cursive;
+  border-radius: 10px;
 }
 
 .navbarright{
   list-style-type: none;
 }
-
-#1{
-  
-}
-
 
