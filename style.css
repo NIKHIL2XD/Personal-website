@@ -89,7 +89,25 @@ body{
   box-shadow: 0 0 5px #b133ff, 0 0 25px #b133ff, 0 0 50px  #b133ff, 0 0 100px #b133ff, 0 0 200px #b133ff;
 }
 
-.navbarright{
+.navbarright li{
   list-style-type: none;
+  display: inline-block;
+  margin-bottom: 0px;
 }
 
+#player-container #play-pause {
+  cursor: pointer;
+  text-indent: -999999px;
+  height: 15px;
+  width: 5px;
+  padding: 10px 16px;
+  z-index: 2;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMiAyNHYtMjRsMjAgMTItMjAgMTJ6Ii8+PC9zdmc+);
+  background-position: center;
+  background-position-x: 10.5px;
+  background-repeat:no-repeat;
+  background-size:20px;
+  background-color: #b133ff;
+  border-radius: 20px;
+  box-shadow: 0 0 5px #b133ff, 0 0 15px #b133ff;
+}
