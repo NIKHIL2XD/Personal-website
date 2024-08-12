@@ -40,19 +40,26 @@ body{
 .navbarleft li{
   display: inline-block;
   margin-left: 15px;
-  border: solid 1px #8509D0;
-  background-color: #8509D0;
+  border: solid 1px #b133ff;
+  background-color: #b133ff;
+  box-shadow: 0 0 5px #b133ff, 0 0 25px #b133ff;
   padding : 10px;
   border-radius: 10px;
 }
 
 .navbarleft li a{
   text-decoration: none;
-  color: white;
+  color: #ffffff;
   font-size: 15px;
-   padding: 8px 10px;
+  padding: 8px 10px;
   font-family: 'Concert One', cursive;
   border-radius: 10px;
+}
+
+.navbarleft li a:hover{
+  box-shadow: 0 0 5px #b133ff, 0 0 25px #b133ff, 0 0 50px  #b133ff, 0 0 100px #b133ff, 0 0 200px #b133ff;
+  font-size: 15.5px;
+  padding: 8.5px 10.5px;
 }
 
 .navbarmid{
@@ -76,6 +83,10 @@ body{
   font-size: 15px;
   font-family: 'Concert One', cursive;
   border-radius: 10px;
+}
+
+.navbarmid li:hover{
+  box-shadow: 0 0 5px #b133ff, 0 0 25px #b133ff, 0 0 50px  #b133ff, 0 0 100px #b133ff, 0 0 200px #b133ff;
 }
 
 .navbarright{
