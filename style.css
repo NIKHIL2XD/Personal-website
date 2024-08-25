@@ -58,8 +58,6 @@ body{
 
 .navbarleft li a:hover{
   box-shadow: 0 0 5px #b133ff, 0 0 25px #b133ff, 0 0 50px  #b133ff, 0 0 100px #b133ff, 0 0 200px #b133ff;
-  font-size: 15.5px;
-  padding: 8.5px 10.5px;
 }
 
 .navbarmid{
@@ -106,18 +104,19 @@ body{
   background-position: center;
   background-repeat:no-repeat;
   background-size:20px;
-  background-color: #b133ff;
+  background-color: #4cc601;
   border-radius: 20px;
-  box-shadow: 0 0 5px #b133ff, 0 0 15px #b133ff;
+  box-shadow: 0 0 5px #4cc601, 0 0 15px #4cc601;
 }
 
 #player-container #play-pause:hover{
-  background-color:#b133ff;
-  box-shadow: 0 0 15px #b133ff, 0 0 35px #b133ff, 0
+  background-color:#4cc601;
+  box-shadow: 0 0 15px #b133ff, 0 0 35px #b133ff, 0;
 }
 .play {
   background-image:     url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMiAyNHYtMjRsMjAgMTItMjAgMTJ6Ii8+PC9zdmc+);
-  
+filter: invert(100%);
+-webkit-filter: invert(100%)
 }
 .pause {
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTAgMjRoLTZ2LTI0aDZ2MjR6bTEwLTI0aC02djI0aDZ2LTI0eiIvPjwvc3ZnPg==)!important;
