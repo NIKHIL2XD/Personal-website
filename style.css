@@ -1,6 +1,9 @@
 body{
   margin: 0px;
   margin-top: 0px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 #mainback {
@@ -242,5 +245,22 @@ filter: invert(100%);
   width: 23px;
   height: 23px;
   margin-left: 5px;
+}
+
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: 'Concert One', cursive;
+  margin-bottom: 0px;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+footer h5{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
