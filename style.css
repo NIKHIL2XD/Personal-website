@@ -130,10 +130,57 @@ filter: invert(100%);
   border: 1px solid white;
 }
 
+.content-left-icons{
+  margin-left: 50px;
+  filter: invert(1);
+  display: flex;
+  align-items: center;
+}
+
 .content-left h1{
   color: white;
   font-family: "Poetsen One", sans-serif;
   font-size: 60px;
   margin-left: 55px;
   text-shadow: 0px 0px 25px #b133ff;
+}
+
+.lefticon{
+ text-decoration: none;
+}
+
+.imgicona{
+  height: 30px; 
+  width: 30px;
+  margin-left: 10px;
+}
+
+ .imgiconb{
+  height: 30px; 
+  width: 30px;
+  margin-left: 10px;
+}
+
+ .imgiconc{
+  height: 30px; 
+  width: 30px;
+  margin-left: 10px;
+}
+
+.imgicona:hover{
+  filter: brightness(120%);
+  filter: contrast(120%);
+  filter: drop-shadow(0px 0px 20px #4cc601);
+}
+
+ .imgiconb:hover{
+  filter: brightness(120%);
+  filter: contrast(120%);
+  filter: drop-shadow(0px 0px 30px #4cc601);
+}
+
+ .imgiconc:hover{
+  filter: brightness(120%);
+  filter: contrast(120%);
+  filter: drop-shadow(0px 0px 20px #4cc601);
 }
