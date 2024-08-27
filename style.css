@@ -93,6 +93,14 @@ body{
   margin-bottom: 0px;
 }
 
+.navbarright li:hover{
+  box-shadow: 0 0 25px #b133ff, 0 0 15px #b133ff;
+  margin-right: 45px;
+  width: 37px;
+  border-radius: 18px;
+}
+
+
 #player-container #play-pause {
   cursor: pointer;
   text-indent: -999999px;
@@ -112,7 +120,7 @@ body{
 
 #play-pause #player-container:hover{
   background-color:#4cc601;
-  box-shadow: 0 0 15px #4cc601, 0 0 35px #4cc601, 0;
+  box-shadow: 0 0 25px #4cc601, 0 0 15px #4cc601;
 }
 
 .play {
