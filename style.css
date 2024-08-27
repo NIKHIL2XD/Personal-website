@@ -134,10 +134,12 @@ filter: invert(100%);
 
 .content{
   border: 1px solid red;
+  display: flex;
 }
 .content-left{
   margin-top: 100px;
   border: 1px solid white;
+  width: 60%;
 }
 
 .content-left-icons{
@@ -196,4 +198,23 @@ filter: invert(100%);
   filter: brightness(120%);
   filter: contrast(120%);
   filter: drop-shadow(0px 0px 6px #2e7e00);
+}
+
+.content-right{
+  display: flex;
+  border: 1px solid blue;
+  margin: 1px;
+  width: 40%;
+  height: 500px;
+  margin-top: 100px;
+}
+
+.mainbox{
+  margin: 10px;
+  background-color: #8509D0;
+  padding: 45px;
+  width: 240px;
+  height: 325px;
+  border-radius: 30px;
+  margin-top: 35px;
 }
