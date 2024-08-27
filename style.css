@@ -212,9 +212,35 @@ filter: invert(100%);
 .mainbox{
   margin: 10px;
   background-color: #8509D0;
-  padding: 45px;
-  width: 240px;
-  height: 325px;
+  padding: 0px;
+  width: 285px;
+  height: 370px;
   border-radius: 30px;
   margin-top: 35px;
 }
+
+.crdtop{
+  display: flex;
+}
+
+.crdprofile{
+  background-color: #e8e5e5;
+  border: 1px solid black;
+  border-radius: 40px;
+  padding: 35px;
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 0px;
+}
+
+.crdicons{
+  margin-top: 55px;
+  margin-left: 30px;
+}
+
+.iconsprogram{
+  width: 23px;
+  height: 23px;
+  margin-left: 5px;
+}
+
