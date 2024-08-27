@@ -136,12 +136,10 @@ filter: invert(100%);
 }
 
 .content{
-  border: 1px solid red;
   display: flex;
 }
 .content-left{
   margin-top: 100px;
-  border: 1px solid white;
   width: 60%;
 }
 
@@ -205,7 +203,6 @@ filter: invert(100%);
 
 .content-right{
   display: flex;
-  border: 1px solid blue;
   margin: 1px;
   width: 40%;
   height: 500px;
@@ -219,7 +216,8 @@ filter: invert(100%);
   width: 285px;
   height: 370px;
   border-radius: 30px;
-  margin-top: 35px;
+  margin-top: 25px;
+  margin-left: 50PX;
 }
 
 .crdtop{
@@ -264,3 +262,44 @@ footer h5{
   margin-bottom: 10px;
 }
 
+.crdmincontent{
+  background-color: #9C14F0;
+  color: white;
+  width: 225px;
+  height: 163px;
+  margin-left: 29px;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.crdmincontent p{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-family: 'Concert One', cursive;
+}
+
+.morebtn{
+  margin-top: 30px;
+}
+
+.morebtn p{
+  width: 85px;
+  height: 24px;
+  background-color: #6802A7;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  padding-top: 9px;
+  margin-left: 35%;
+  margin-top: 26px;
+  font-size: 12px;
+  text-decoration: none;
+  font-family: 'Concert One', cursive;
+}
+
+.morebtn p:hover{
+  background-color: #7002b4;
+}
