@@ -18,9 +18,22 @@
     <div class="backButton">
      <button> <i class="fa-solid fa-arrow-left"></i>Back</button>
     </div>
+
+    <div class="chatinput">
+        <form action="" method="POST">
+            <label>Display Name :
+                <input type="text" name="Name" required>
+            </label><br>
+            <label>Comment :
+                <br>
+                <textarea name="Comment" required></textarea>
+            </label><br>
+
+        </form>
+    </div>
     <h1>Live Chat</h1>
     <div class="mainchatbox">
-        
+
     </div>
 </body>
 </html>
