@@ -43,6 +43,15 @@
 
         $Name = $_POST["Name"];
         $Comments = $_POST["Comment"];
+
+        //old comments
+        $Old = fopen("comments.txt", "r+t");
+        $Old_Comments = fread($Old, 1024);
+
+        //Add new comment
+        $write = fopen("comments.txt", "w+");
+
+        
     }
 
 ?>
