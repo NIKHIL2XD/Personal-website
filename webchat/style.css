@@ -39,7 +39,9 @@ body {
 }
 
 h1{
- color: #8509D0;
+    color: #8509D0;
+    text-align: center;
+    margin-top: 40px;
 }
 
 .mainchatbox{
@@ -49,5 +51,13 @@ h1{
     margin-bottom: 0px;
     padding-bottom: 100%;
     background-color: white;
+}
+
+.chatinput{
+    border: 1px solid white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
