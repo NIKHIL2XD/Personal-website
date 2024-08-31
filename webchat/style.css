@@ -1,1 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Concert One', cursive;
+}
 
+html{
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-image: linear-gradient(280deg, #870DD1, #FFFF);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
