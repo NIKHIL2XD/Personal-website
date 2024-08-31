@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -17,3 +18,36 @@ body {
     background-attachment: fixed;
     margin: 0;
 }
+
+.backButton{
+    position: fixed;
+    top: 40px;
+    left: 40px;
+}
+
+.backButton button{
+    padding: 14px;
+    border-radius: 10px;
+    border: 1px solid #8509D0;
+    background: #8509D0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 10px;
+    font-size: 15px;
+}
+
+h1{
+ color: #8509D0;
+}
+
+.mainchatbox{
+    margin-left: 250px;
+    margin-right: 140px;
+    margin-top: 260px;
+    margin-bottom: 0px;
+    padding-bottom: 100%;
+    background-color: white;
+}
+
