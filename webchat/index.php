@@ -23,17 +23,26 @@
         <form action="" method="POST">
             <label>Display Name :
                 <input type="text" name="Name" required>
-            </label><br>
+            </label><br />
             <label>Comment :
                 <br>
                 <textarea name="Comment" required></textarea>
-            </label><br>
-
+            </label><br />
+            <input type="submit" name="submit" value="Submit" />
         </form>
     </div>
     <h1>Live Chat</h1>
     <div class="mainchatbox">
-
     </div>
 </body>
 </html>
+
+<?php
+    if(isset($_POST["Submit"])) {
+        print "<h2>Comment added !</h2>";
+
+        $Name = $_POST["Name"];
+        $Comments = $_POST["Comment"];
+    }
+
+?>
