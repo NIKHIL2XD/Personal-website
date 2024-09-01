@@ -42,16 +42,27 @@
         print "<h2>Comment added !</h2>";
 
         $Name = $_POST["Name"];
-        $Comments = $_POST["Comment"];
+        $Comment = $_POST["Comment"];
 
         //old comments
         $Old = fopen("comments.txt", "r+t");
         $Old_Comments = fread($Old, 1024);
 
         //Add new comment
-        $write = fopen("comments.txt", "w+");
+        $Write = fopen("comments.txt", "w+");
 
+        $String = 
+            "<div class='comment'><span>".$Name."</span><br />
+            <span>".date("Y/m/d")." | ".date("h:i A"). "</span><br />
+            <span>".$comment."</span><div>\n".$Old_Comments;
         
+        fwrite($Write, $String);
+        fclose($Write);
+        fclose($Old);
     }
 
+    //To display all comments
+    $Read = fopen("comments.txt", "r+t");
+    echo "<h1>Comments : </h1><hr>".fread($Read, 1024);
+    fclose($Read);
 ?>
