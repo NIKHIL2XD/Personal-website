@@ -91,5 +91,23 @@ h2{
     color: rgb(0, 156, 0);
 }
 
+.comment{
+    padding: 8px 0;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.comment span:first-child{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.comment span:nth-child(3){
+    color:rgb(56, 53, 53);
+    font-size: 12px;
+}
+
 
 
