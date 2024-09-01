@@ -35,3 +35,20 @@ Made webchat to get others feedback and improve myself with those comments.
 
 - Image - ![Alt](https://cloud-mxgp9mohf-hack-club-bot.vercel.app/0screenshot_2024-09-01_at_8.47.38___am.png)
 
+
+
+# Projects
+
+To showcase my projects
+
+## Requsites
+
+- HTML - for body development
+- CSS5 - for styling and ui
+- vscode - IDE for coding
+
+## Experience 
+
+- Link - [Click on me](https://mansotra.xyz/webmasters/projects/index.php)
+
+- Image - ![Alt](https://cloud-dvmzfja9d-hack-club-bot.vercel.app/0screenshot_2024-09-01_at_1.59.55___pm.png)
