@@ -63,3 +63,26 @@ body {
 .title{
     margin-top: 20px;
 }
+
+.button button{
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #8509D0;
+    background: #8509D0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+}
+
+button{
+    transition: all 0.2s ease;
+}
+
+button:hover{
+    scale: 1.1;
+    cursor: pointer;
+
+}
