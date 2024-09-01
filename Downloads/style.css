@@ -48,12 +48,12 @@ body {
 }
 
 .card {
+    color: #5f5e5e;
     background: white;
     padding: 20px;
     border-radius: 16px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     gap: 20px;
     width: 100%;
@@ -67,4 +67,56 @@ body {
     justify-content: center;
     margin-top: 100px;
     padding: 0 20px;
+}
+
+.image {
+    width: 150px;
+    height: 120px;
+    background: #D9D9D9;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.button button {
+    padding: 16px;
+    border-radius: 10px;
+    border: 1px solid #8509D0;
+    background: #8509D0;
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+}
+
+button {
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.viewButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.viewButton button {
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background: white;
+}
+
+@media (max-width: 694px){
+    .card{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image{
+        width: 100%;
+        height: 200px;
+    }
 }
