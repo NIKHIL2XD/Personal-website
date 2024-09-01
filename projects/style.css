@@ -86,3 +86,13 @@ button:hover{
     cursor: pointer;
 
 }
+
+.projects{
+    margin-left: 100px;
+}
+
+.project{
+    margin-left: 20%;
+    margin-top: 42px;
+    padding-bottom: 58px;
+}
