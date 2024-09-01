@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Concert One', cursive;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-image: linear-gradient(280deg, #870DD1, #FFFF);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.backButton{
+    position: fixed;
+    top: 40px;
+    left: 40px;
+}
+
+.backButton button{
+    padding: 14px;
+    border-radius: 10px;
+    border: 1px solid #8509D0;
+    background: #8509D0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 10px;
+    font-size: 15px;
+}
