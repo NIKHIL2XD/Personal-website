@@ -14,3 +14,24 @@ Made this website with pure html ans css, the main purpose of building a new web
 - Link - [Click on me](https://mansotra.xyz/)
 
 - Image - ![Alt](https://cloud-1o2phc38l-hack-club-bot.vercel.app/0screenshot_2024-08-28_at_12.19.42___am.png)
+
+
+
+# Webchat
+
+Made webchat to get others feedback and improve myself with those comments.
+
+## Requsites
+
+- HTML - for body development
+- CSS5 - for styling and ui
+- javascript - for trasitions, clock and backend
+- vscode - IDE for coding
+- php - for chat and backend database
+
+## Experience 
+
+- Link - [Click on me](https://mansotra.xyz/webmasters/webchat/index.php)
+
+- Image - ![Alt](https://cloud-mxgp9mohf-hack-club-bot.vercel.app/0screenshot_2024-09-01_at_8.47.38___am.png)
+
