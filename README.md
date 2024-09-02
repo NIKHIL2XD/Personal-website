@@ -52,3 +52,21 @@ To showcase my projects
 - Link - [Click on me](https://mansotra.xyz/webmasters/projects/index.php)
 
 - Image - ![Alt](https://cloud-dvmzfja9d-hack-club-bot.vercel.app/0screenshot_2024-09-01_at_1.59.55___pm.png)
+
+
+# Downloads
+
+All downloadable content in one page
+
+## Requsites
+
+- HTML - for body development
+- CSS5 - for styling and ui
+- vscode - IDE for coding
+
+## Experience 
+
+- Link - [Click on me](https://mansotra.xyz/webmasters/Downloads/index.php)
+
+- Image - ![Alt](https://cloud-6zrsgy1og-hack-club-bot.vercel.app/0screenshot_2024-09-02_at_2.06.46___am.png)
+
